@@ -1,7 +1,7 @@
 # Напишите функцию для транспонирования матрицы
 
 
-my_matrix = [[1, 2, 3], [11, 22, 33], [111, 222, 333]]
+my_matrix = [[1, 2, 3], [11, 22, 33], [111, 222, 333], [4, 5, 6]]
 #print(my_matrix)
 
 trans_matrix = [[0 for j in range(len(my_matrix))] for i in range(len(my_matrix))]
