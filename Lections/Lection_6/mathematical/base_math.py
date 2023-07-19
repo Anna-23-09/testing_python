@@ -32,8 +32,11 @@ def div(*args):
         res /= item
     return res
 
-print(f'{add(2, 4) = }')
-print(f'{add(2, 4, 6, 8) = }')
-print(f'{sub(10, 2) = }')
-print(f'{mul(2, 2, 2, 2, 2) = }')
-print(f'{div(-100, 5, -2) = }')
+
+if __name__ == '__main':
+    print(f'{add(2, 4) = }')
+    print(f'{add(2, 4, 6, 8) = }')
+    print(f'{sub(10, 2) = }')
+    print(f'{mul(2, 2, 2, 2, 2) = }')
+    print(f'{div(-100, 5, -2) = }')
+    
