@@ -1,7 +1,7 @@
 import base_math
 
-x = base_math.mul # Плохой прием
-y = base_math._START_MULT # Очень плохой прием
+x = base_math.mul # Плохой прием - передача имени в другую перееменную
+y = base_math._START_MULT # Очень плохой прием - обращение к защищенной или приватной переменной
 z = base_math.sub(73, 42)
 print(x(2, 3))
 print(y)
