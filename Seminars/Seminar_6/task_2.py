@@ -9,7 +9,9 @@
 # исчерпаны - ложь.
 
 from random import randint as rand
-def game(low: int, up: int, count: int):
+print(__name__)
+
+def game(low: int = 1, up: int = 100, count: int = 6):
     number = rand(low, up)
     while count:
         variant = int(input("Введите число: "))
@@ -23,4 +25,6 @@ def game(low: int, up: int, count: int):
         count -= 1
     print(f'Увы, число было {number}')
     return False
-print(game(1, 100, 6))
+
+if __name__ == '__main__':
+    print(game(1, 100, 6))
