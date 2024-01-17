@@ -30,8 +30,11 @@ def date_check(input_date: str):
         return True
     return False
 
+
 if __name__ == '__main__':
     print(date_check("22.12.2020"))
     print(date_check("29.02.2017"))
     print(date_check("29.02.2016"))
     print(date_check("31.04.1005"))
+
+

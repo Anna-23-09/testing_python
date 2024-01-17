@@ -1,1 +1,1 @@
-from Seminars import
+# from Seminars import

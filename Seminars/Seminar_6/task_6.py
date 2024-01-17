@@ -13,12 +13,18 @@
 from task_4 import puzzle
 from task_5 import puzzle_solut
 from random import choice, randint
+
 __dict_protect__ = {}
+
+
 def puzzle_count(guess_text: str, guess_try: int):
     __dict_protect__[guess_text] = guess_try
 
-def puzzle_count_print():
+
+def puzzle_count_print() -> object:
     for guess_text, guess_try in __dict_protect__.items():
         print(f'Загадку {guess_text} угадали c {guess_try} попытки')
+
+
 print(puzzle_solut(5))
 print(puzzle_count_print())
