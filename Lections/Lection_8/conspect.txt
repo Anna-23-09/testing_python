@@ -20,7 +20,7 @@ json_list = json.loads(json_text)
 ###Преобразование Python в JSON
 import json
 
-json.dump(my_dict, f)
+json.dump(my_dict, f)ё
 - сохранение dict или list в файле в виде JSON
 
 dict_to_json_text = json.dumps(my_dict)
