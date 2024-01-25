@@ -28,7 +28,7 @@ for i in range(len(max([names, numbers], key=len))):
     result.append((names[i].upper(), round(number)) if number > 0 else (names[i].lower(), abs(number)))
 
 with open('result.txt', 'w', encoding='utf-8') as result_file:
-    result_file.write('\n'.join([' | '.join(row) for row in result]))
+    result_file.write('\n'.join([' | ' + (str(row)) for row in result]))
 for row in result:
     print(row)
 
