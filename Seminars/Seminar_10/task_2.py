@@ -7,6 +7,8 @@
 # сторона, считаем что у нас квадрат.
 
 from math import pi
+
+
 class Rectangle:
     def __init__(self, long, width=0):
         self.long = long
